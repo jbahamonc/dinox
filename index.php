@@ -52,8 +52,8 @@
 				<h1 class="white-text center">Tecnología al servicio de sus necesidades</h1>
                 <div class="row padin-top-40">
                     <div class="col l3 m6 s12">
-                        <a href="#" class="link-service z-depth-1 margin-bottom-40">
-                            <div class="image-bg">
+                        <a href="web/" class="link-service z-depth-1 margin-bottom-40">
+                            <div class="image-bg bg-web">
                                 <div class="mask web"></div>                            
                                 <div class="title">
                                     <h6 class="white-text">Desarrollo Web</h6>
@@ -69,7 +69,7 @@
                     </div>
                     <div class="col l3 m6 s12">
                         <a href="#" class="link-service z-depth-1 margin-bottom-40">
-                            <div class="image-bg">
+                            <div class="image-bg bg-cam">
                                 <div class="mask cam"></div>                            
                                 <div class="title">
                                     <h6 class="white-text">Sistema de <br>Videovigilancia</h6>
@@ -85,7 +85,7 @@
                     </div>
                     <div class="col l3 m6 s12">
                         <a href="#" class="link-service z-depth-1 margin-bottom-40">
-                            <div class="image-bg">
+                            <div class="image-bg bg-net">
                                 <div class="mask net"></div>                            
                                 <div class="title">
                                     <h6 class="white-text">Redes y <br> Telecomunicaciones</h6>
@@ -101,7 +101,7 @@
                     </div>
                     <div class="col l3 m6 s12">
                         <a href="#" class="link-service z-depth-1 margin-bottom-40">
-                            <div class="image-bg">
+                            <div class="image-bg bg-pc">
                                 <div class="mask sop"></div>                            
                                 <div class="title">
                                     <h6 class="white-text">Soporte Técnico de <br>Equipos de Cómputo</h6>
@@ -116,6 +116,10 @@
                         </a>
                     </div>
                 </div> 
+                <div class="more-ser center">
+                     <a class="btn-floating btn-large blue" href="#servicios"><i class="ion-ios-arrow-thin-down"></i></a>
+                     <p class="white-text">Mas servicios</p>
+                </div>
     		</div>
         </div>
 	</header>
@@ -126,98 +130,58 @@
         <div id="servicios" class="section-long" style="background-color: #EEEEEE;">
             <div class="container">
                <div class="row center margin-bottom-40">
-                    <h4 class="no-margin-top">Conozca lo que hacemos</h4>
+                    <h4 class="no-margin-top">Conozca mas de lo que hacemos</h4>
                     <p>Ofrecemos servicios con calidad, responsabilidad, seriedad, <br> adaptabilidad que respondan a las necesidades de nuestros clientes</p>
                 </div>
                 <div class="row">
-                    <div class="col m6">
+                    <div class="col m6 s12">
                         <div class="card-service web white z-depth-1">
                             <div class="text big">
                                 <span class="margin-bottom-40">PAGINAS WEB</span>
                                 <h5 class="no-margin-top">Diseño y Desarrollo</h5>
-                                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, similique explicabo. Architecto nam sit dolor vitae accusantium dolore eum reprehenderit repellat debitis harum totam minus.</p>
-                                <a class="btn-floating btn-large red" href="web/"><i class="ion-ios-arrow-thin-right"></i></a>
+                                <p class="">Diseñamos y desarrollamos paginas y aplicaciones web adaptables a cualquier dispositivo, administrables, con tecnologías que brindan seguridad y escabilidad.</p>
+                                <a class="btn-floating btn-large blue" href="web/"><i class="ion-ios-arrow-thin-right"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col m6">
+                    <div class="col m6 s12">
                         <div class="card-service red white z-depth-1">
                             <div class="text big">
                                 <span class="margin-bottom-40">REDES</span>
                                 <h5 class="no-margin-top">Cableado Estructurado</h5>
-                                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, similique explicabo. Architecto nam sit dolor vitae accusantium dolore eum reprehenderit repellat debitis harum totam minus.</p>
-                                <a class="btn-floating btn-large green" href="redes/"><i class="ion-ios-arrow-thin-right"></i></a>
+                                <p class="">Diseñamos, configuramos, e implementamos proyectos de cableado estructurado de acuerdo a las normas establecidas, que responden a las necesidades del cliente.</p>
+                                <a class="btn-floating btn-large red" href="redes/"><i class="ion-ios-arrow-thin-right"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col m6">
+                    <div class="col m6 s12">
                         <div class="card-service pc white z-depth-1">
                             <div class="text big">
                                 <span class="margin-bottom-40">COMPUTADORAS</span>
                                 <h5 class="no-margin-top">Soporte Tecnico</h5>
-                                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, similique explicabo. Architecto nam sit dolor vitae accusantium dolore eum reprehenderit repellat debitis harum totam minus.</p>
-                                <a class="btn-floating btn-large indigo" href="#!"><i class="ion-ios-arrow-thin-right"></i></a>
+                                <p class="">Realizamos un completo diagnóstico, mantenimiento y reparación de equipos de cómputo, atendiendo además a los requerimientos técnicos.</p>
+                                <a class="btn-floating btn-large amber" href="#!"><i class="ion-ios-arrow-thin-right"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col m6">
+                    <div class="col m6 s12">
                         <div class="card-service cctv white z-depth-1">
                             <div class="text big">
                                 <span class="margin-bottom-40">CAMARAS</span>
                                 <h5 class="no-margin-top">Camaras de Seguridad</h5>
-                                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, similique explicabo. Architecto nam sit dolor vitae accusantium dolore eum reprehenderit repellat debitis harum totam minus.</p>
-                                <a class="btn-floating btn-large blue" href="#!"><i class="ion-ios-arrow-thin-right"></i></a>
+                                <p class="">Nuestro trabajo consiste en la instalación, configuración y puesta en marcha del sistema de seguridad, instalación de cámaras de seguridad IP, WiFi o CCTV con DVR.</p>
+                                <a class="btn-floating btn-large green"><i class="ion-ios-arrow-thin-right"></i></a>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row hide">
-                    <div class="col l3">
-                        <div class="box-content white z-depth-1 hoverable">
-                            <div class="content-top center">
-                                <img src="img/ic1.png" alt="">
-                                <h5 class="no-margin-bottom"><b>Programación</b></h5>
-                                <p class="grey-text text-lighten-1"><b>Escritorio y Web</b></p>
+                    <div class="col m6 s12">
+                        <div class="card-service soft white z-depth-1">
+                            <div class="text big">
+                                <span class="margin-bottom-40">SOFTWARE</span>
+                                <h5 class="no-margin-top">Desarrrollo de Software</h5>
+                                <p class="">Desarrollamos aplicaciones de escritorio en ambientes multiplataforma, personalizados, escalables, de fácil de uso, que responden a las necesidades del cliente.</p>
+                                <a class="btn-floating btn-large purple" href="#!"><i class="ion-ios-arrow-thin-right"></i></a>
                             </div>
-                            
-                            <div class="divider"></div>
-                            <a href="#!" class="btn-flat margin-top-10 border blue-text waves-effect center"><b>LEER MAS</b></a>
-                        </div>
-                    </div>
-                    <div class="col l3">
-                        <div class="box-content white z-depth-1 hoverable">
-                            <div class="content-top center">
-                                <img src="img/ic2.png" alt="">
-                                <h5 class="no-margin-bottom"><b>Redes</b></h5>
-                                <p class="grey-text text-lighten-1"><b>Cableado Estructurado</b></p>
-                            </div>
-                            <p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos provident itaque reprehenderit laudantium accusamus officiis unde, ducimus dolorem quas.</p>
-                            <div class="divider"></div>
-                            <a href="#!" class="btn-flat margin-top-10 border blue-text waves-effect center"><b>LEER MAS</b></a>
-                        </div>
-                    </div>
-                    <div class="col l3">
-                        <div class="box-content white z-depth-1 hoverable">
-                            <div class="content-top center">
-                                <img src="img/ic3.png" alt="">
-                                <h5 class="no-margin-bottom"><b>Computadores</b></h5>
-                                <p class="grey-text text-lighten-1"><b>Servicio Técnico</b></p>
-                            </div>
-                            <p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos provident itaque reprehenderit laudantium accusamus officiis unde, ducimus dolorem quas.</p>
-                            <div class="divider"></div>
-                            <a href="#!" class="btn-flat margin-top-10 border blue-text waves-effect center"><b>LEER MAS</b></a>
-                        </div>
-                    </div>
-                    <div class="col l3">
-                        <div class="box-content white z-depth-1 hoverable">
-                            <div class="content-top center">
-                                <img src="img/ic4.png" alt="">
-                                <h5 class="no-margin-bottom"><b>Camaras</b></h5>
-                                <p class="grey-text text-lighten-1"><b>Circuito Cerrado de TV</b></p>
-                            </div>
-                            <p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos provident itaque reprehenderit laudantium accusamus officiis unde, ducimus dolorem quas.</p>
-                            <div class="divider"></div>
-                            <a href="#!" class="btn-flat margin-top-10 border blue-text waves-effect center"><b>LEER MAS</b></a>
                         </div>
                     </div>
                 </div>

@@ -137,7 +137,6 @@ nav .brand-logo {
 }
 
 .image-bg {
-	background: url(../img/paginas-web.jpg);
 	background-size: cover;
 	position: relative;
 	height: 200px;
@@ -157,6 +156,22 @@ nav .brand-logo {
 	left: 0px;
 	z-index: 1;
 	border-radius: 4px;
+}
+
+.image-bg.bg-web {
+	background-image: url(../img/paginas-web.jpg);
+}
+
+.image-bg.bg-cam {
+	background-image: url(../img/camaras.png);
+}
+
+.image-bg.bg-net {
+	background-image: url(../img/comunicacion.png);
+}
+
+.image-bg.bg-pc {
+	background-image: url(../img/caract-mant-preventivo.png);
 }
 
 .image-bg > .mask.web {
@@ -221,6 +236,10 @@ nav .brand-logo {
 
 .card-service.cctv {
 	background-image: url(../img/camaras-de-seguridad.svg);
+}
+
+.card-service.soft {
+	background-image: url(../img/tecnologias-de-desarrollo.svg);
 }
 
 .card-service span {
@@ -413,17 +432,122 @@ footer .divider {
 /*===========================================================
   =                          WEB                            =
   ===========================================================*/
-header.web {
-	height: 60vh;
+header.extended {
+	height: auto;
+	z-index: 10;
 	position: relative;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+
+header .nav-background {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    opacity: .1;
+}
+
+header .nav-background .ea {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    max-width: 100%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: opacity .7s;
+}
+
+header .nav-background .ea {
+    top: 0;
+    bottom: 0;
+    -webkit-transform: none;
+    transform: none;
+    background-repeat: repeat;
+}
+
+header .nav-background .ea.k {
+    opacity: 1;
+}
+
+.db {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+}
+
+.nav-wrapper .nav-header {
+    clear: both;
+    padding: 40px 0;
+}
+
+header .nav-header .ge {
+    display: block;
+    margin: -15px 0 40px 0;
+    color: rgba(255,255,255,0.8);
+}
+
+header .categories-wrapper {
+	height: 64px;
+	line-height: 64px;
+}
+
+ul:not(.browser-default) {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+header .categories-wrapper .categories-container .categories>li {
+    float: none;
+    display: inline-block;
+}
+
+header ul:not(.indicators) li.k {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+header .categories-wrapper ul a {
+    transition: background-color .3s;
+    font-size: 1rem;
+    color: #fff;
+    display: block;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+header .categories-wrapper ul a:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+@media only screen and (min-width: 601px) {
+	.db {
+	    width: 85%;
+	}
+}
+
+@media only screen and (min-width: 993px) {
+	.db {
+	    width: 70%;
+	}
 }
 
 main .wrapper-service {
 	padding: 40px 80px 80px;
 	border-radius: 5px;
-	margin-top: -30vh;
 	z-index: 3;
     position: relative;
+}
+
+.wrapper-service p{
+	text-align: justify;
 }
 
 
