@@ -3,9 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="description" content="Ofrecemos servicios tecnicos y tecnologicos en Cucuta, Diseño de Paginas web, Mantenimiento de Computadores, Instalacion de CCTV, Instalacion de Redes, Desarrollo de software">
+	<meta name="description" content="Ofrecemos servicios tecnicos y tecnologicos en Cucuta, Diseño de Paginas web, Mantenimiento de Computadores, Instalacion de Sistemas de Seguridad, Instalacion de Redes y Desarrollo de software">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Milenium | Empresa de Tecnología en Cúcuta</title>
+	<title>Dinox S.A.S | Empresa de Tecnología en Cúcuta</title>
 	<link rel="stylesheet" href="css/materialize.min.css">
     <link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/ionicons.min.css">
@@ -23,7 +23,7 @@
                     </a>
                     <a class="brand-logo" href="./" title="Milenium">
                         <img src="img/i-milenium.png" alt="">
-                        <span>MILENIUM</span>
+                        <span>DINOX</span>
                     </a>
                     <div class="clearfix"></div>
                 </div>
@@ -49,15 +49,73 @@
         <!-- /Navegacion -->
         <div class="container">
     		<div class="section-long">
-		        <div class="row">
-				    <div class="col l6">
-						<h1 class="white-text text-shadow">Tecnología al servicio de sus necesidades</h1>
-                        <p class="white-text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi tempora veritatis nemo aut ea iusto eos est expedita, quas ab adipisci, vero molestias nisi blanditiis quasi doloribus omnis eligendi excepturi!</p>
-                        <div class="margin-top-40">
-                            <a href="#!" class="btn-floating btn-large white"><i class="ion-ios-play blue-text"></i></a>
-                        </div>
-				    </div>
-		        </div>
+				<h1 class="white-text center">Tecnología al servicio de sus necesidades</h1>
+                <div class="row padin-top-40">
+                    <div class="col l3 m6 s12">
+                        <a href="#" class="link-service z-depth-1 margin-bottom-40">
+                            <div class="image-bg">
+                                <div class="mask web"></div>                            
+                                <div class="title">
+                                    <h6 class="white-text">Desarrollo Web</h6>
+                                </div>
+                                <div class="desc-service">
+                                    <h5 class="white-text no-margin">Anuncia al mundo tu negocio</h5>
+                                    <div class="icon-link white-text">
+                                        <i class="ion-ios-arrow-thin-right"></i>
+                                    </div>
+                                </div>                            
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col l3 m6 s12">
+                        <a href="#" class="link-service z-depth-1 margin-bottom-40">
+                            <div class="image-bg">
+                                <div class="mask cam"></div>                            
+                                <div class="title">
+                                    <h6 class="white-text">Sistema de <br>Videovigilancia</h6>
+                                </div>
+                                <div class="desc-service">
+                                    <h5 class="white-text no-margin">La seguridad lo es todo</h5>
+                                    <div class="icon-link white-text">
+                                        <i class="ion-ios-arrow-thin-right"></i>
+                                    </div>
+                                </div>                            
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col l3 m6 s12">
+                        <a href="#" class="link-service z-depth-1 margin-bottom-40">
+                            <div class="image-bg">
+                                <div class="mask net"></div>                            
+                                <div class="title">
+                                    <h6 class="white-text">Redes y <br> Telecomunicaciones</h6>
+                                </div>
+                                <div class="desc-service">
+                                    <h5 class="white-text no-margin">Comunicarte, es el primer paso</h5>
+                                    <div class="icon-link white-text">
+                                        <i class="ion-ios-arrow-thin-right"></i>
+                                    </div>
+                                </div>                            
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col l3 m6 s12">
+                        <a href="#" class="link-service z-depth-1 margin-bottom-40">
+                            <div class="image-bg">
+                                <div class="mask sop"></div>                            
+                                <div class="title">
+                                    <h6 class="white-text">Soporte Técnico de <br>Equipos de Cómputo</h6>
+                                </div>
+                                <div class="desc-service">
+                                    <h5 class="white-text no-margin">El rendimiento es parte de la eficacia</h5>
+                                    <div class="icon-link white-text">
+                                        <i class="ion-ios-arrow-thin-right"></i>
+                                    </div>
+                                </div>                            
+                            </div>
+                        </a>
+                    </div>
+                </div> 
     		</div>
         </div>
 	</header>
@@ -68,7 +126,7 @@
         <div id="servicios" class="section-long" style="background-color: #EEEEEE;">
             <div class="container">
                <div class="row center margin-bottom-40">
-                    <h4 class="no-margin-top">Conosca lo que hacemos</h4>
+                    <h4 class="no-margin-top">Conozca lo que hacemos</h4>
                     <p>Ofrecemos servicios con calidad, responsabilidad, seriedad, <br> adaptabilidad que respondan a las necesidades de nuestros clientes</p>
                 </div>
                 <div class="row">
