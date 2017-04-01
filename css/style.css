@@ -64,10 +64,7 @@ footer.page-footer{	background-color: rgb(40, 45, 48);}
    ====================================================
  */
 .header-principal{
-	background-image: url(../img/bg-index3.jpg);
-	background-size: cover;
-	background-color: #5f5f5f;
-	background-repeat: no-repeat; 
+	background: url(../img/main-bg.png) top repeat-x;
 }
 
 .navbar-index {
@@ -240,6 +237,10 @@ nav .brand-logo {
 
 .card-service.soft {
 	background-image: url(../img/tecnologias-de-desarrollo.svg);
+}
+
+.card-service.mov {
+	background-image: url(../img/movil.svg);
 }
 
 .card-service span {

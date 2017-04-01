@@ -2,180 +2,117 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Semantic's | Mantenimiento de computadores, analisis de daños en el computador, antivirus, instlacion de software etc.</title>
-	<meta name="description" content="Mantenimiento de computadores en la cuidad de cucuta">
-	<link rel="stylesheet" href="css/materialize.min.css">
-	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/style.css">
+	<title>Dinox | Instalación y configuración de camaras de seguridad y videovigilancia</title>
+	<meta name="description" content="Contamos con el servicio de videovigilancia y camaras de seguridad, que permite a su negocio u hogar estar vigilado todo el tiempo">
+	<link rel="stylesheet" href="../css/materialize.min.css">
+	<link rel="stylesheet" href="../css/animate.css">
+	<link rel="stylesheet" href="../css/ionicons.min.css">
+	<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-	<header class="navbar-fixed">
-		<nav class="blue lighten-1" role="navigation">
-			<div class=" nav-wrapper container">
-				<a href="index.html" class="brand-logo"><h1 class="no-margin"><img src="img/logo.png" alt=""></h1></a>			
-				<ul class="right hide-on-med-and-down blue-text">
-		            <li><a href="acerca.html">SemanTIC'S</a></li>
-		            <li>
-		            	<a href="#!" class="dropdown-button" data-activates="dropdown1">Servicios<i class="mdi-navigation-arrow-drop-down right"></i></a>
-		            	<ul id="dropdown1" class="dropdown-content">
-						    <li><a href="web.html">Web</a></li>
-						    <li><a href="software.html">Software</a></li>
-						    <li><a href="pc.html">PC'S</a></li>
-						    <li><a href="redes.html">Redes</a></li>
-						    <li><a href="seguridad.html">Camaras</a></li>
-						</ul>
-					</li>
-		            <li><a href="tienda.html">Tienda Online</a></li>
-		            <li><a href="contacto.html">Contacto</a></li>
-		        </ul>
-		        <ul class="side-nav" id="mobile-demo">
-			        <li><a class="blue-text" href="acerca.html">SemanTIC'S</a></li>
-		            <li><a class="blue-text" href="servicios.html">Servicios</a></li>
-		            <li><a class="blue-text" href="tienda.html">Tienda Online</a></li>
-		            <li><a class="blue-text" href="contacto.html">Contacto</a></li>
-				</ul>
-				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-	  		</div>
-		</nav>	
+	<header class="cam extended green">
+		<div class="nav-background">
+	        <div class="ea k" style="background-image: url('../img/bg-web.png');"></div>
+	     </div>
+		<!-- Navegacion -->
+        <nav class="navbar-index transparent no-shadow">
+            <div class="container">
+                <div class="nav-wrapper slide">
+                    <a href="#" data-activates="slide-out" class="right button-collapse">
+                        <img src="../img/icon-menu.png" alt="">
+                    </a>
+                    <a class="brand-logo" href="../" title="Dinox">
+                        <img src="../img/i-milenium.png" alt="">
+                        <span>DINOX</span>
+                    </a>
+                    <div class="clearfix"></div>
+                </div>
+                <!-- Navegacion  -->
+                <ul id="slide-out" class="side-nav green">
+                    <li class="no-border">
+                        <div class="userView">
+                            <div class="background blue"></div>
+                            <img src="../img/i-milenium.png">
+                            <a href="#!name"><span class="name"><b>DINOX</b></span></a>
+                            <a href="#!email"><span class="email">Soluciones Tecnologicas</span></a>
+                        </div>
+                    </li>
+                    <li><a class="waves-effect white-text" href="#!"><i class="ion-information"></i>Nosotros</a></li>
+                    <li><a class="waves-effect white-text" href="#!"><i class="ion-gear-a"></i>Servicios</a></li>
+                    <li><a class="waves-effect white-text" href="#!"><i class="ion-person-stalker"></i>Concertar Reunión</a></li>
+                    <li><a class="waves-effect white-text" href="#!"><i class="ion-ios-compose-outline"></i>Suscribirse</a></li>
+                    <li><a class="waves-effect white-text" href="#!"><i class="ion-ios-paperplane-outline"></i>Contacto</a></li>
+                    <li><a class="waves-effect white-text" href="#!"><i class="ion-bookmark"></i>Preguntas Frecuentes</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- /Navegacion -->	
+        <div class="nav-wrapper db">
+			<div class="nav-header center">
+	          	<h1 class="white-text">SEGURIDAD</h1>
+	          	<div class="ge">Sistema de videovigilancia</div>
+	        </div>
+		</div>
+		<div class="categories-wrapper blue darken-1 hide">
+	        <div class="categories-container pin-top">
+		          <ul class="categories db">
+		            	<li class="k"><a href="#all">All</a></li>
+		            	<li><a href="#overhead">Overhead</a></li>
+		            	<li><a href="#sintel">Sintel</a></li>
+		          </ul>
+	        </div>
+        </div>
+        <div class="fixed-action-btn horizontal" style="position: absolute;bottom: -27px;right: 60px;">
+		    <a class="btn-floating btn-large waves-effect waves-light red">
+		      <i class="ion-ios-more"></i>
+		    </a>
+		    <ul>
+		      <li><a href="../#reunion" class="btn-floating red tooltipped" data-position="top" data-delay="50" data-tooltip="Reunion""><i class="ion-ios-people"></i></a></li>
+		      <li><a href="../#contacto" class="btn-floating red tooltipped" data-position="top" data-delay="50" data-tooltip="Contacto""><i class="ion-email-unread"></i></a></li>
+		    </ul>
+	    </div>
 	</header>
-	<div class="parallax-container">
-		<div class="section">
-			<div class="container center">
-				<h2 class="white-text"><strong>Instalación, Configuración & Administración</strong></h2>
-				<div class="row">
-					<h5 class="white-text"><i>Sistema de Camaras de Seguridad</i></h5>
+	<main style="background-color: #EEE;">
+		<div class="container">
+			<div class="wrapper-service">
+				<div class="c-top">
+					<h3 class="center">Sistemas de Camaras de Vigilancia</h3>
+					<img src="../img/sistemas-cctv.jpg" alt="Instalación y configuración de sistemas CCTV" class="responsive-img">
+					<p class="lead margin-bottom-40">Ofrecemos la última tecnología en sistemas de seguridad incluyendo cámaras y grabadoras digitales (DVR o NVR), accesorios y suministros para el circuito cerrado de televisión (CCTV). <br> Nuestro servicio es ofrecerle la mayor seguridad a su empresa o residencia, dotándolo de tecnología de punta que garantizara la vigilancia las 24 horas del día. <br> No importa qué tipo de necesidades surjan en su empresa o residencia, estamos en capacidad de suplirlas generando las mejores opciones y soluciones con el mejor beneficio costo-calidad.</p>
 				</div>
+				<p>Como es nuestra forma de trabajar:</p><br>
+				<p><b>ANALISIS DEL PROYECTO</b></p>
+				<p>- Nuestro equipo proporcionará una evaluación inicial sin ningún costo de su propiedad. Le recomendaremos un diseño con el equipamiento que mejor satisfaga sus necesidades. Nuestro proyecto de seguridad incluirá la ubicación correcta de cámaras de seguridad y nos aseguraremos de que el sistema de cámaras de vigilancia cumpla con las especificaciones requeridas para satisfacer sus expectativas.</p>
+				<p>- Le proporcionaremos una estimación sin compromiso que incluirá el costo de ejecutar el proyecto, toda la alimentación de baja tensión, cables de vídeo, dispositivo de grabación, instalación de todas las cámaras y DVR, incluyendo ajustes óptimos de detección de movimiento y notificación. Finalmente, la formación de todo el sistema, incluyendo el acceso remoto por ordenadores y teléfonos inteligentes.</p>
+				<br>
+				<p><b>INSTALACIÓN PROGRAMADA</b></p>
+				<p>- Una vez acordadas todas las especificaciones, programaremos la fecha de instalación y asignaremos un equipo para realizar la instalación.</p><br>
+				<p><b>INSTALAR EL SISTEMA DE CÁMARAS DE SEGURIDAD</b></p>
+				<p>- La instalación comenzará normalmente con el funcionamiento de los cables de baja tensión, luego las cámaras de seguridad serán montadas, posicionadas y configuradas. El siguiente paso será la instalación del dispositivo de grabación.</p>
+				<p>- Una vez que la instalación física esté completa, conectaremos el DVR a su red, configuraremos su router para que pueda acceder a sus cámaras desde cualquier parte del mundo, instalar las aplicaciones de teléfonos inteligentes en su dispositivo móvil IPhone, IPad y/o Android. Y probar todo el sistema.</p><br>
+				<p><b>CAPACITACIÓN</b></p>
+				<p>- La etapa final de la instalación es la fase de entrenamiento. Le enseñaremos a usted y a cualquier persona que designe cómo utilizar el sistema, cómo buscar y descargar material de archivo y cómo acceder a sus cámaras de seguridad de forma remota. En este momento haremos las mejoras necesarias en el posicionamiento y las configuraciones de la cámara.</p><br>
+				<p><b>FUNCIONES DEL SISTEMA DE VIDEOVIGILANCIA</b></p>
+				<p>- Ver cámaras en vivo por Internet mediante smartphone, tabletn o PC.</p>
+				<p>- Grabación de vídeo de forma continua o por movimiento.</p>
+				<p>- Respaldo de imágenes.</p>
+				<p>- Aviso de alerta de movimiento a correos electrónicos.</p>
+				<p>- Administración de usuario.</p>
+				<p>- Entre otras mas.</p>
+				<br><br>
+				<p class="lead" style="text-align: center;"><b>Si deseas un asesoramiento para iniciar tu proyecto o quieres saber mas sobre algo en particular no dudes en contactarnos, recuerda que trabajamos para usted</b></p>
 			</div>
-		</div>
-		<div class="parallax">
-			<img src="img/fondo-redes.jpg" alt="" style="display: block;">
-		</div>
-	</div>
-	<main>
-		<div class="white">
-			<div class="container">
-				<div class="section-long">
-					<div class="row center margin-bottom-40">
-						<h3>La seguridad de su negocio de su hogar es importante para nosotros.</h3>
-					</div>
-					<div class="row center margin-bottom-40">
-						<img src="img/comunicacion.png" alt="">
-					</div>
-					<div class="row">
-						<div class="col l6"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur distinctio nobis velit molestiae numquam delectus dolore accusamus minus consequuntur, debitis, omnis quo accusantium fugiat, reiciendis repudiandae. Doloribus, repellendus, explicabo.</p></div>
-						<div class="col l6"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aliquid cumque explicabo, labore illum, mollitia autem quibusdam nam nihil quas provident maxime quis voluptatum incidunt facere suscipit animi voluptates. Architecto.</p></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="red lighten-2">
-			<div class="container">
-				<div class="section-long">
-					<div class="row">
-						<div class="col m6">
-							<h4 class="white-text thin">Planeaci&oacute;n de la Infraestructura & Materiales</h4>
-							<p class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est hic voluptatibus odio, ex nostrum eos doloribus recusandae at vel ut consequuntur autem rem harum consectetur nesciunt impedit voluptatem necessitatibus voluptates.</p>
-							<h5 class="white-text thin margin-top-10 line-bottom padin-bottom-10">Caracteristicas</h5>
-							<ul class="white-text margin-bottom-40">
-								<li>→ tium quaerat, voluptas necessitatibus at eos quis incidunt impedit provident culpa.</li>
-								<li>→ magni eligendi alias natus velit, ullam temporibus laborum officia obcaecati.</li>
-								<li>→ i atque eius voluptatibus impedit ab voluptates nam deserunt alias.</li>
-								<li>→ doloribus dolore. Dicta tempora eligendi, et sapiente quas.</li>
-								<li>→ ipit amet, sapiente totam doloremque porro alias rerum velit error officiis.</li>
-								<li>→ quam reprehenderit nam esse ipsum tenetur eaque, quisquam aliquam aliquid molestias.</li>
-							</ul>
-						</div>
-						<div class="col m6 center">
-							<img src="img/diseño-soft.png" alt="" class="responsive-img">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="blue lighten-1">
-			<div class="container">
-				<div class="section-long">
-					<div class="row">
-						<div class="col m6">
-							<h4 class="white-text thin">Instalación & Configuración</h4>
-							<p class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est hic voluptatibus odio, ex nostrum eos doloribus recusandae at vel ut consequuntur autem rem harum consectetur nesciunt impedit voluptatem necessitatibus voluptates.</p>
-							<h5 class="white-text thin margin-top-10 line-bottom padin-bottom-10">Caracteristicas</h5>
-							<ul class="white-text margin-bottom-40">
-								<li>→ tium quaerat, voluptas necessitatibus at eos quis incidunt impedit provident culpa.</li>
-								<li>→ magni eligendi alias natus velit, ullam temporibus laborum officia obcaecati.</li>
-								<li>→ i atque eius voluptatibus impedit ab voluptates nam deserunt alias.</li>
-								<li>→ doloribus dolore. Dicta tempora eligendi, et sapiente quas.</li>
-								<li>→ ipit amet, sapiente totam doloremque porro alias rerum velit error officiis.</li>
-								<li>→ quam reprehenderit nam esse ipsum tenetur eaque, quisquam aliquam aliquid molestias.</li>
-							</ul>
-						</div>
-						<div class="col m6 center">
-							<img src="img/diseño-soft.png" alt="" class="responsive-img">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="light-green">
-			<div class="container">
-				<div class="section-long">
-					<div class="row">
-						<div class="col m6">
-							<h4 class="white-text thin">Soporte Técnico</h4>
-							<p class="white-text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est hic voluptatibus odio, ex nostrum eos doloribus recusandae at vel ut consequuntur autem rem harum consectetur nesciunt impedit voluptatem necessitatibus voluptates.</p>
-							<h5 class="white-text thin margin-top-10 line-bottom1 padin-bottom-10">Caracteristicas</h5>
-							<ul class="white-text margin-bottom-40">
-								<li>→ tium quaerat, voluptas necessitatibus at eos quis incidunt impedit provident culpa.</li>
-								<li>→ magni eligendi alias natus velit, ullam temporibus laborum officia obcaecati.</li>
-								<li>→ i atque eius voluptatibus impedit ab voluptates nam deserunt alias.</li>
-								<li>→ doloribus dolore. Dicta tempora eligendi, et sapiente quas.</li>
-								<li>→ ipit amet, sapiente totam doloremque porro alias rerum velit error officiis.</li>
-								<li>→ quam reprehenderit nam esse ipsum tenetur eaque, quisquam aliquam aliquid molestias.</li>
-							</ul>
-						</div>
-						<div class="col m6 center">
-							<img src="img/diseño-soft.png" alt="" class="responsive-img">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="white">
-			<div class="container">
-				<div class="section-long">
-					<div class="row">
-						<div class="col m12 center">
-							<img src="img/ok.png" alt="">
-							<h4 class="thin">Deseas tener seguridad en su negocio u hogar, contactanos.</h4>
-							<a href="contacto.html" class="btn grey darken-2">Si quiero</a>
-						</div>
-						<div class="col m6 center">
-							
-						</div>
-					</div>
-				</div>
+			<div class="center padin-bottom-40">
+				<a href="../contacto/" class="btn btn-large  waves-effect waves-light green">iniciar proyecto</a>
 			</div>
 		</div>
 	</main>
-	<footer class="page-footer blue lighten-1 white-text footer">
-		<div class="container">
-			<div class="row">
-				<div class="col l4">
-					<h4 class="white-text">FOOTER TITLE</h4>
-					<p class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem fugiat commodi totam sint illo incidunt quis eius, eum, iure, voluptatibus fugit, voluptas atque ratione nobis sed omnis! Aliquam sequi, nisi.</p>
-				</div>
-			</div>
-		</div>
-		<div class="footer-copyright">
-            <div class="container">
-            © 2015 Copyright SemanTIC'S
-            </div>
-        </div>
-	</footer>
-	<script src="js/jquery-2.1.3.min.js"></script>
-	<script src="js/materialize.min.js"></script>
+	<!-- footer -->
+	<?php include 'inc/footer.php'; ?>
+	<!-- /footer -->
+	
+	<script src="../js/jquery-2.1.3.min.js"></script>
+	<script src="../js/materialize.min.js"></script>
 	<script>$(document).ready(function(){ $(".button-collapse").sideNav();});</script>
-	<script>$(document).ready(function(){$(".dropdown-button").dropdown();});</script>
-	<script>$(document).ready(function(){$(".parallax").parallax();});</script>
 </body>
 </html>

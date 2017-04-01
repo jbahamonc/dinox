@@ -13,7 +13,7 @@
 </head>
 <body onload="initMap()">
 	<!-- Header -->
-	<header class="header-principal">
+	<header class="header-principal grey darken-4">
         <!-- Navegacion -->
         <nav class="navbar-index transparent no-shadow">
             <div class="container">
@@ -68,7 +68,7 @@
                         </a>
                     </div>
                     <div class="col l3 m6 s12">
-                        <a href="#" class="link-service z-depth-1 margin-bottom-40">
+                        <a href="seguridad/" class="link-service z-depth-1 margin-bottom-40">
                             <div class="image-bg bg-cam">
                                 <div class="mask cam"></div>                            
                                 <div class="title">
@@ -84,7 +84,7 @@
                         </a>
                     </div>
                     <div class="col l3 m6 s12">
-                        <a href="#" class="link-service z-depth-1 margin-bottom-40">
+                        <a href="redes/" class="link-service z-depth-1 margin-bottom-40">
                             <div class="image-bg bg-net">
                                 <div class="mask net"></div>                            
                                 <div class="title">
@@ -100,7 +100,7 @@
                         </a>
                     </div>
                     <div class="col l3 m6 s12">
-                        <a href="#" class="link-service z-depth-1 margin-bottom-40">
+                        <a href="soporte-tecnico/" class="link-service z-depth-1 margin-bottom-40">
                             <div class="image-bg bg-pc">
                                 <div class="mask sop"></div>                            
                                 <div class="title">
@@ -179,8 +179,18 @@
                             <div class="text big">
                                 <span class="margin-bottom-40">SOFTWARE</span>
                                 <h5 class="no-margin-top">Desarrrollo de Software</h5>
-                                <p class="">Desarrollamos aplicaciones de escritorio en ambientes multiplataforma, personalizados, escalables, de fácil de uso, que responden a las necesidades del cliente.</p>
-                                <a class="btn-floating btn-large purple" href="#!"><i class="ion-ios-arrow-thin-right"></i></a>
+                                <p class="">Desarrollamos aplicaciones de escritorio en ambientes multiplataforma, personalizados, escalables y de fácil de uso.</p>
+                                <a class="btn-floating btn-large purple" href="software/"><i class="ion-ios-arrow-thin-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m6 s12">
+                        <div class="card-service mov white z-depth-1">
+                            <div class="text big">
+                                <span class="margin-bottom-40">MOVILES</span>
+                                <h5 class="no-margin-top">Desarrrollo de Aplicaciones Moviles</h5>
+                                <p class="">Desarrollamos aplicaciones para la empresa basada en tecnologías móviles, aplicaciones que brindan apoyo al funcionamiento y gestión de la organización, de manera ágil y segura.</p>
+                                <a class="btn-floating btn-large grey" href="moviles/"><i class="ion-ios-arrow-thin-right"></i></a>
                             </div>
                         </div>
                     </div>

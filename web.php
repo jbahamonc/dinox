@@ -14,8 +14,8 @@
 	<!-- Inicio Header -->
 	<header class="web extended blue">
 		<div class="nav-background">
-	        <div class="ea k" style="background-image: url('//cdn.shopify.com/s/files/1/1775/8583/t/1/assets/icon-seamless.png?12295265317662713736');"></div>
-	      </div>
+	        <div class="ea k" style="background-image: url('../img/bg-web.png');"></div>
+	     </div>
 		<nav class="navbar-index transparent no-shadow">
 		    <div class="container">
 		        <div class="nav-wrapper slide">
@@ -34,8 +34,8 @@
 		                <div class="userView">
 		                    <div class="background blue"></div>
 		                    <img src="../img/i-milenium.png">
-		                    <a href="#!name"><span class="name"><b>Milenuim</b></span></a>
-		                    <a href="#!email"><span class="email">servicio@milenium.com</span></a>
+		                    <a href="#!name"><span class="name"><b>DINOX</b></span></a>
+		                    <a href="#!email"><span class="email">Soluciones Tecnologicas</span></a>
 		                </div>
 		            </li>
 		            <li><a class="waves-effect white-text" href="#!"><i class="ion-information"></i>Nosotros</a></li>
@@ -78,32 +78,30 @@
 				<div class="c-top">
 					<h3 class="center">Diseño y Desarrollo de Paginas Web</h3>
 					<img src="../img/ser-web-pag.jpg" alt="Diseño y Desarrollo de Sitios Web" class="responsive-img">
-					<p class="lead margin-bottom-40">Contamos con años de experiencia en el desarrollo y entendemos la importancia de un sitio web para su empresa o negocio, es por ello que brindamos soluciones integrales que se ajusten a lo que desea, ademas le garantizamos el acompañamiento a lo largo del desarrollo como después de entregado el proyecto.</p>
+					<p class="lead margin-bottom-40">Contamos con años de experiencia en el desarrollo y entendemos la importancia de un sitio web para su empresa o negocio, es por ello que brindamos soluciones integrales que se ajusten a lo que desea, ademas le garantizamos el acompañamiento a lo largo del desarrollo así como después de entregado el proyecto.</p>
 				</div>
 				<p>Tenemos un mundo de posibilidades para ti, para ello contamos con:</p><br>
 				<p><b>Diseño de sitios corporativos</b></p>
 				<p>- Diseñamos y llevamos a cabo proyectos para su empresa al detalle de sus necesidades, con identidades corporativas, colores, logos etc.</p>
 				<p>- Nuestros diseños son adaptables, por lo tanto obtienes un solo diseño para ser visualizado en cualquier dispositivo.</p>
+				<br>
+				<p><b>Herramientas de comunicación</b></p>
+				<p>- Formularios personalizados que le permitan interactuar con sus clientes y obtener la informacion directamente en su bandeja de correo electronico</p>
+				<p>- Seccion de noticias</p><br>
+				<p><b>Soporte y Administracion del sitio</b></p>
+				<p>- Se realizan tutorias, capacitaciones, manuales, videos relacionado con el manejo de la página</p>
+				<p>- Cuenta con acompañamiento cuando lo requiera</p>
+				<p>- Puede administrar directamente la informacion que requiera.</p>
+				<br><br>
+				<p class="lead" style="text-align: center;"><b>Si deseas un asesoramiento para iniciar tu proyecto o quieres saber mas sobre algo en particular no dudes en contactarnos, recuerda que trabajamos para usted</b></p>
+			</div>
+			<div class="center padin-bottom-40">
+				<a href="../contacto/" class="btn btn-large  waves-effect waves-light blue">iniciar proyecto</a>
 			</div>
 		</div>
 	</main>
 	<!-- Footer -->
-	<footer class="page-footer no-margin-top center section"  style="background-color: #EEE;">
-		<div class="fcopyright">
-	        <div class="container">
-	        	<img width="40" src="../img/i-milenium.png" alt="" style="margin-bottom: 15px;">
-	        	<div class="redes">
-	        		<ul>
-	        			<li><a class="btn-floating white" href="http://www.facebook.com/dinoxcucuta" target="_blank"><span class="ion-social-facebook blue-text"></span></a></li>
-	        			<li><a class="btn-floating white" href="http://www.youtube.com/milenium" target="_blank"><span class="ion-social-youtube red-text"></span></a></li>
-	        			<li><a class="btn-floating white" href="http://www.twitter.com/milenium" target="_blank"><span class="ion-social-twitter light-blue-text"></span></a></li>
-	        		</ul>
-	        	</div>
-	        	<div class="divider"></div>
-	        	<p class="grey-text"><small><b>© <?php print(date("Y")) ?> Dinox S.A.S. Todos los Derechos Reservados</b></small></p>
-	        </div>
-	    </div>
-	</footer>
+	<?php include 'inc/footer.php'; ?>
 	<!-- /Footer -->
 	<!-- Inicio de Scripts -->
 	<script src="../js/jquery-2.1.3.min.js"></script>

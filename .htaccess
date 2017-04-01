@@ -4,3 +4,8 @@ RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
 Rewriterule ^web/ web.php 
 Rewriterule ^redes/ redes.php 
+Rewriterule ^seguridad/ seguridad.php 
+Rewriterule ^contacto/ contacto.php 
+Rewriterule ^soporte-tecnico/ pc.php
+Rewriterule ^software/ software.php
+Rewriterule ^moviles/ moviles.php
