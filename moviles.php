@@ -22,29 +22,29 @@
 		            <a href="#" data-activates="slide-out" class="right button-collapse">
 		                <img src="../img/icon-menu.png" alt="">
 		            </a>
-		            <a class="brand-logo" href="../" title="Milenium">
-		                <img src="../img/i-milenium-other.png" alt="">
+		            <a class="brand-logo" href="../" title="Dinox">
+		                <img src="../img/logo-dinox1.png" alt="">
 		                <span>DINOX</span>
 		            </a>
 		            <div class="clearfix"></div>
 		        </div>
-		        <!-- Navegacion  -->
-		        <ul id="slide-out" class="side-nav green">
+		        <!-- Navegacion movil  -->
+		        <ul id="slide-out" class="side-nav">
 		            <li class="no-border">
 		                <div class="userView">
 		                    <div class="background blue"></div>
-		                    <img src="../img/i-milenium.png">
-		                    <a href="#!name"><span class="name"><b>DINOX</b></span></a>
-		                    <a href="#!email"><span class="email">Soluciones Tecnologicas</span></a>
+		                    <img src="../img/logo-dinox1.png">
+		                    <p class="white-text"><span class="name"><b>Dinox</b></span></p>
+		                    <p class="white-text"><span class="email">Soluciones Tecnológicas</span></p>
 		                </div>
 		            </li>
 		            <li><a class="waves-effect white-text" href="#!"><i class="ion-information"></i>Nosotros</a></li>
-		            <li><a class="waves-effect white-text" href="../#servicios"><i class="ion-gear-a"></i>Servicios</a></li>
-		            <li><a class="waves-effect white-text" href="#!"><i class="ion-person-stalker"></i>Concertar Reunión</a></li>
+		            <li><a class="waves-effect white-text" href="./#servicios"><i class="ion-gear-a"></i>Servicios</a></li>
 		            <li><a class="waves-effect white-text" href="#!"><i class="ion-ios-compose-outline"></i>Suscribirse</a></li>
-		            <li><a class="waves-effect white-text" href="#!"><i class="ion-ios-paperplane-outline"></i>Contacto</a></li>
+		            <li><a class="waves-effect white-text" href="./#contacto"><i class="ion-ios-paperplane-outline"></i>Contacto</a></li>
 		            <li><a class="waves-effect white-text" href="#!"><i class="ion-bookmark"></i>Preguntas Frecuentes</a></li>
 		        </ul>
+		        <!-- /Navegacion movil  -->
 		    </div>
 		</nav>
 		<div class="nav-wrapper db">
@@ -67,7 +67,7 @@
 		      <i class="ion-ios-more"></i>
 		    </a>
 		    <ul>
-		      <li><a href="../#reunion" class="btn-floating red tooltipped" data-position="top" data-delay="50" data-tooltip="Reunion""><i class="ion-ios-people"></i></a></li>
+		      <li class="hide"><a href="../#reunion" class="btn-floating red tooltipped" data-position="top" data-delay="50" data-tooltip="Reunion""><i class="ion-ios-people"></i></a></li>
 		      <li><a href="../#contacto" class="btn-floating red tooltipped" data-position="top" data-delay="50" data-tooltip="Contacto""><i class="ion-email-unread"></i></a></li>
 		    </ul>
 	    </div>
@@ -100,12 +100,12 @@
 				<p class="lead" style="text-align: center;"><b>Si deseas un asesoramiento para iniciar tu proyecto o quieres saber mas sobre algo en particular no dudes en contactarnos, recuerda que trabajamos para usted</b></p>
 			</div>
 			<div class="center padin-bottom-40">
-				<a href="../contacto/" class="btn btn-large  waves-effect waves-light grey">iniciar proyecto</a>
+				<a href="../#contacto" class="btn btn-large  waves-effect waves-light grey">iniciar proyecto</a>
 			</div>
 		</div>
 	</main>
 	<!-- Footer -->
-	<?php include 'inc/footer.php'; ?>
+	<?php include 'footer.php'; ?>
 	<!-- /Footer -->
 	<!-- Inicio de Scripts -->
 	<script src="../js/jquery-2.1.3.min.js"></script>

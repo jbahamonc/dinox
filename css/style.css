@@ -64,7 +64,7 @@ footer.page-footer{	background-color: rgb(40, 45, 48);}
    ====================================================
  */
 .header-principal{
-	background: url(../img/main-bg.png) top repeat-x;
+	background: url(../img/main-bg.png) repeat-x,linear-gradient(180deg,#02405d 13%,#2196F3 56%,#00BCD4);
 }
 
 .navbar-index {
@@ -103,7 +103,7 @@ nav .brand-logo {
 }
 
 .userView .background {
-	background-image: url(../img/bg7.jpg);
+	background-image: url(../img/bg-index3.jpg);
 	background-size: cover;
 }
 
@@ -393,18 +393,21 @@ nav .brand-logo {
 
 .input-field input[type=text]:focus + label,
 .input-field input[type=email]:focus + label,
+.input-field input[type=number]:focus + label,
 .input-field textarea:focus + label {
     color: #fff !important;
 }
 
 .input-field input[type=text],
 .input-field input[type=email],
+.input-field input[type=number],
 .input-field textarea {
     border-bottom: 1px solid rgba(255,255,255,.4) !important;
 }
 
 .input-field input[type=text]:focus,
 .input-field input[type=email]:focus,
+.input-field input[type=number]:focus,
 .input-field textarea:focus {
     border-bottom: 1px solid #fff !important;
 }

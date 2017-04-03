@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="description" content="Ofrecemos servicios tecnicos y tecnologicos en Cucuta, Diseño de Paginas web, Mantenimiento de Computadores, Instalacion de Sistemas de Seguridad, Instalacion de Redes y Desarrollo de software">
+	<meta name="description" content="Ofrecemos servicios técnicos y tecnológicos en Cúcuta, Diseño de Paginas Web, Mantenimiento de Computadores, Instalación de Sistemas de Camaras de Seguridad, Instalación de Clableado Estructurado y Desarrollo de software de Escritorio">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Dinox S.A.S | Empresa de Tecnología en Cúcuta</title>
 	<link rel="stylesheet" href="css/materialize.min.css">
@@ -13,7 +13,7 @@
 </head>
 <body onload="initMap()">
 	<!-- Header -->
-	<header class="header-principal grey darken-4">
+	<header class="header-principal">
         <!-- Navegacion -->
         <nav class="navbar-index transparent no-shadow">
             <div class="container">
@@ -21,29 +21,29 @@
                     <a href="#" data-activates="slide-out" class="right button-collapse">
                         <img src="img/icon-menu.png" alt="">
                     </a>
-                    <a class="brand-logo" href="./" title="Milenium">
-                        <img src="img/i-milenium.png" alt="">
+                    <a class="brand-logo" href="./" title="Dinox">
+                        <img src="img/logo-dinox1.png" alt="">
                         <span>DINOX</span>
                     </a>
                     <div class="clearfix"></div>
                 </div>
-                <!-- Navegacion  -->
-                <ul id="slide-out" class="side-nav green">
+                <!-- Navegacion movil  -->
+                <ul id="slide-out" class="side-nav">
                     <li class="no-border">
                         <div class="userView">
                             <div class="background blue"></div>
-                            <img src="img/i-milenium.png">
-                            <a href="#!name"><span class="name"><b>Milenuim</b></span></a>
-                            <a href="#!email"><span class="email">servicio@milenium.com</span></a>
+                            <img src="img/logo-dinox1.png">
+                            <p class="white-text"><span class="name"><b>Dinox</b></span></p>
+                            <p class="white-text"><span class="email">Soluciones Tecnológicas</span></p>
                         </div>
                     </li>
                     <li><a class="waves-effect white-text" href="#!"><i class="ion-information"></i>Nosotros</a></li>
-                    <li><a class="waves-effect white-text" href="#!"><i class="ion-gear-a"></i>Servicios</a></li>
-                    <li><a class="waves-effect white-text" href="#!"><i class="ion-person-stalker"></i>Concertar Reunión</a></li>
+                    <li><a class="waves-effect white-text" href="./#servicios"><i class="ion-gear-a"></i>Servicios</a></li>
                     <li><a class="waves-effect white-text" href="#!"><i class="ion-ios-compose-outline"></i>Suscribirse</a></li>
-                    <li><a class="waves-effect white-text" href="#!"><i class="ion-ios-paperplane-outline"></i>Contacto</a></li>
+                    <li><a class="waves-effect white-text" href="conatcto/"><i class="ion-ios-paperplane-outline"></i>Contacto</a></li>
                     <li><a class="waves-effect white-text" href="#!"><i class="ion-bookmark"></i>Preguntas Frecuentes</a></li>
                 </ul>
+                <!-- /Navegacion movil  -->
             </div>
         </nav>
         <!-- /Navegacion -->
@@ -52,7 +52,7 @@
 				<h1 class="white-text center">Tecnología al servicio de sus necesidades</h1>
                 <div class="row padin-top-40">
                     <div class="col l3 m6 s12">
-                        <a href="web/" class="link-service z-depth-1 margin-bottom-40">
+                        <a href="web/" class="link-service z-depth-1 margin-bottom-40 animated slideInLeft">
                             <div class="image-bg bg-web">
                                 <div class="mask web"></div>                            
                                 <div class="title">
@@ -117,7 +117,7 @@
                     </div>
                 </div> 
                 <div class="more-ser center">
-                     <a class="btn-floating btn-large blue" href="#servicios"><i class="ion-ios-arrow-thin-down"></i></a>
+                     <a class="btn-floating btn-large blue animated pulse infinite" href="#servicios"><i class="ion-ios-arrow-thin-down"></i></a>
                      <p class="white-text">Mas servicios</p>
                 </div>
     		</div>
@@ -160,7 +160,7 @@
                                 <span class="margin-bottom-40">COMPUTADORAS</span>
                                 <h5 class="no-margin-top">Soporte Tecnico</h5>
                                 <p class="">Realizamos un completo diagnóstico, mantenimiento y reparación de equipos de cómputo, atendiendo además a los requerimientos técnicos.</p>
-                                <a class="btn-floating btn-large amber" href="#!"><i class="ion-ios-arrow-thin-right"></i></a>
+                                <a class="btn-floating btn-large amber" href="soporte-tecnico/"><i class="ion-ios-arrow-thin-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -170,7 +170,7 @@
                                 <span class="margin-bottom-40">CAMARAS</span>
                                 <h5 class="no-margin-top">Camaras de Seguridad</h5>
                                 <p class="">Nuestro trabajo consiste en la instalación, configuración y puesta en marcha del sistema de seguridad, instalación de cámaras de seguridad IP, WiFi o CCTV con DVR.</p>
-                                <a class="btn-floating btn-large green"><i class="ion-ios-arrow-thin-right"></i></a>
+                                <a class="btn-floating btn-large green" href="seguridad/"><i class="ion-ios-arrow-thin-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -211,7 +211,7 @@
                 <div class="row no-margin">
                     <div class="col m7">
                         <h2 class="no-margin-top">Lo que hemos <br> logrado</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, dolores, consequuntur perspiciatis sunt doloribus laboriosam cum quod vel, quas harum deserunt.</p>
+                        <p class="lead">Nuestro esfuerzo y dedicación en el trabajo que realizamos, se ve reflejado en los logros y metas alcanzadas pero mas en la satisfacion de nuestros clientes</p>
                         <div class="margin-top-40">
                             <div class="row">
                                 <div class="col m4 center">
@@ -244,9 +244,9 @@
             <div class="container">
                 <div class="row  center">
                     <h4 class="thin margin-bottom-40">Recibe nuestras ultimas noticias <br> y anuncios de interes</h4>
-                    <form action="#" class="suscribete">
+                    <form class="suscribete">
                         <div class="input-field col m8 offset-m2">
-                            <input id="email" type="email" placeholder="Correo electronico">
+                            <input id="email" type="email" placeholder="Correo electronico" required>
                         </div>
                         <div class="clearfix"></div>
                     </form>
@@ -300,25 +300,29 @@
                                     <div class="clearfix"></div>
                                 </div>
                                 <div class="content-form">
-                                    <form action="#">
+                                    <form action="enviar-email/" method="post" enctype="application/x-www-form-urlencoded">
                                         <div class="row no-margin-bot">
                                             <div class="input-field col s12">
-                                                <input id="first_name" type="text" class="validate">
-                                                <label for="first_name">Nombre</label>
+                                                <input id="first_name" type="text" class="validate" name="nombre">
+                                                <label for="first_name">Nombre Completo</label>
                                             </div>
                                             <div class="input-field col s12">
-                                                <input id="email" type="email" class="validate">
+                                                <input id="email" type="email" class="validate" name="email">
                                                 <label for="email">Email</label>
                                             </div>
                                         </div>
                                         <div class="row margin-bottom-40">
                                             <div class="input-field col s12">
-                                                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                                <input id="email" type="number" class="validate" name="telefono">
+                                                <label for="email">Numero de contacto</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                                <textarea id="textarea1" class="materialize-textarea" name="mensaje"></textarea>
                                                 <label for="textarea1">Mensaje</label>
                                             </div>
                                         </div>
                                         <div class="row center">
-                                            <button class="btn btn-large send-btn"><i class="ion-paper-airplane"></i> enviar mensaje</button>
+                                            <button type="submit" class="btn btn-large send-btn"><i class="ion-paper-airplane"></i> enviar mensaje</button>
                                         </div>
                                     </form>
                                 </div>
@@ -330,7 +334,7 @@
                 <div class="row padin-bottom-40">
                     <div class="col m4 center">
                         <span class="ion-android-phone-portrait blue-text margin"></span>
-                        <p class="margin-top-10">cel: (+57) 312 527 1579</p>
+                        <p class="margin-top-10">(+57) 320 451 4472</p>
                     </div>
                     <div class="col m4 center">
                         <span class="ion-ios-location blue-text margin"></span>
@@ -339,7 +343,7 @@
                     </div>
                     <div class="col m4 center">
                         <span class="ion-email blue-text margin"></span>
-                        <p class="margin-top-10">email: service@milenium.com</p>
+                        <p class="margin-top-10">dinox.corporation@gmail.com</p>
                     </div>
                 </div>
             </div>
@@ -351,16 +355,16 @@
     <footer class="page-footer no-margin-top center section" >
         <div class="fcopyright">
             <div class="container">
-                <img width="40" src="img/i-milenium.png" alt="" style="margin-bottom: 15px;">
+                <img width="40" src="img/logo-dinox1.png" alt="" style="margin-bottom: 15px;">
                 <div class="redes">
                     <ul>
-                        <li><a class="btn-floating white" href="http://www.facebook.com/milenium" target="_blank"><span class="ion-social-facebook blue-text"></span></a></li>
+                        <li><a class="btn-floating white" href="http://www.facebook.com/dinoxcucuta" target="_blank"><span class="ion-social-facebook blue-text"></span></a></li>
                         <li><a class="btn-floating white" href="http://www.youtube.com/milenium" target="_blank"><span class="ion-social-youtube red-text"></span></a></li>
                         <li><a class="btn-floating white" href="http://www.twitter.com/milenium" target="_blank"><span class="ion-social-twitter light-blue-text"></span></a></li>
                     </ul>
                 </div>
                 <div class="divider"></div>
-                <p class="grey-text"><small><b>© 2016 Milenium, Todos los Derechos Reservados</b></small></p>
+                <p class="grey-text"><small><b>© <?php print(date("Y")) ?> Dinox S.A.S. Cúcuta, Colombia</b></small></p>
             </div>
         </div>
     </footer>
@@ -371,6 +375,26 @@
 	<script src="js/materialize.min.js"></script>
     <script src="js/slide.js"></script>
     <script>$(".button-collapse").sideNav();</script>
+    <script>
+        $("#email").keypress(function(evt){
+            evt.preventDefault();
+            if (evt.which == 13) {
+                var e = $(this).val();
+                $.ajax({
+                    url  : "system/correo_controller.php",
+                    type : "post",
+                    data : "email="+e,
+                    success : function(res) {                        
+                        alert(res);                        
+                    }
+
+                });
+                $(this).val('');
+                return false;
+            }
+            
+        });
+    </script>
     <script>
         function initMap() {
             var myLatLng = {lat: 7.918833, lng: -72.519917};

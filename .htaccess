@@ -9,3 +9,4 @@ Rewriterule ^contacto/ contacto.php
 Rewriterule ^soporte-tecnico/ pc.php
 Rewriterule ^software/ software.php
 Rewriterule ^moviles/ moviles.php
+Rewriterule ^enviar-email/  system/email.php
